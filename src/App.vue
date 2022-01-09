@@ -1,5 +1,5 @@
 <template>
-  <div>hello</div>
+  <div>hello world</div>
   <ul>
     <li v-for="user in users" :key="user.id">{{ user.id }}:{{ user.name }}</li>
   </ul>
@@ -16,7 +16,7 @@ export default {
     };
   },
   mounted() {
-    axios.get('http://8.142.21.192:3000/api/users').then(response => {
+    axios.get('/api/users').then(response => {
       this.users = response.data;
     });
   },
