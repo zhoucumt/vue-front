@@ -1,12 +1,47 @@
 {
   "config": [
     {
-      "total": 6,
+      "total": 10,
       "name": "幸运奖",
       "col": 5
     },
     {
-      "total": 5,
+      "total": 10,
+      "name": "幸运奖",
+      "col": 5
+    },
+    {
+      "total": 10,
+      "name": "幸运奖",
+      "col": 5
+    },
+    {
+      "total": 10,
+      "name": "幸运奖",
+      "col": 5
+    },
+    {
+      "total": 10,
+      "name": "幸运奖",
+      "col": 5
+    },
+    {
+      "total": 10,
+      "name": "幸运奖",
+      "col": 5
+    },
+    {
+      "total": 10,
+      "name": "幸运奖",
+      "col": 5
+    },
+    {
+      "total": 10,
+      "name": "幸运奖",
+      "col": 5
+    },
+    {
+      "total": 6,
       "name": "三等奖",
       "col": 5
     },
