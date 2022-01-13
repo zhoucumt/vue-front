@@ -1,26 +1,20 @@
 <template>
-  <div>hello world</div>
-  <ul>
-    <li v-for="user in users" :key="user.id">{{ user.id }}:{{ user.name }}</li>
-  </ul>
+  <router-view />
 </template>
 
-<script>
-import axios from 'axios';
-
-export default {
-  name: 'App',
-  data() {
-    return {
-      users: [],
-    };
-  },
-  mounted() {
-    axios.get('/api/users').then(response => {
-      this.users = response.data;
-    });
-  },
-};
-</script>
-
-<style lang="less"></style>
+<style lang="less">
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+#app {
+  height: 100%;
+  background: url('./assets/bg2.jpeg') center no-repeat;
+  background-size: cover;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+</style>
